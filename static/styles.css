@@ -24,6 +24,7 @@ body {
 #chat-header {
   background-color: #5b7dff;
   color: white;
+  height: 30px;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -121,4 +122,27 @@ body {
   margin: 0 10px;
 }
 
-/* Add additional styling as needed */
+.review-summary-button {
+  background-color: white;
+  color: #1f38f4;
+  border: 1px solid #1f38f4; /* Blue border */;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 60px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.review-summary-button:hover {
+  background-color: #8ec0f5; /* Darker blue on hover */
+  text-decoration: bold;
+}
+
+.review-summary-button:active {
+  background-color: #004080; /* Even darker blue when clicked */
+}
+
